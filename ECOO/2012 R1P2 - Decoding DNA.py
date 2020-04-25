@@ -22,5 +22,4 @@ for i in range(5):
                 found = True
                 if stop_ind < best:
                     best = stop_ind
-    #print(strand[start_ind:stop_ind])
     print(f'{i+1}: {transform(RNA, strand[start_ind:best])}')
